@@ -22,3 +22,4 @@
 .basket-box li span {
     text-align: right;
 }
+.basket-box,.empty-basket{position: sticky; top: 100px;}

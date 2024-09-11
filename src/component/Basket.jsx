@@ -6,8 +6,8 @@ const Basket = ({ cart, emptyCart }) => {
   if (cart.length === 0) return <p className="empty-basket">Sepetiniz boş.</p>; // Sepet boşsa mesaj göster
 
   return (
-    <div className="row">
-      <div className="col-12">
+    <div className="row h-100">
+      <div className="col-12 h-100">
         <div className="border px-3 py-3 shadow ms-auto basket-box rounded">
           <h2 className="">Sepet</h2>
           <ul className="m-0 p-0">
