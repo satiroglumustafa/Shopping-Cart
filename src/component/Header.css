@@ -1,2 +1,2 @@
-.app-title{font-size: 32px; font-weight: bold;line-height: 40px;}
+.app-title{font-size: 32px; font-weight: bold;line-height: 40px;    position: sticky;top: 0;z-index: 999;background: #fff;padding: 20px 30px 20px 10px;box-shadow: 1px 1px 10px #bbbbbb;border-radius: 5px;}
 

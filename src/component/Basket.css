@@ -1,0 +1,24 @@
+.empty-basket {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #bbbbbb;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.basket-box li {
+    padding-top: 0.5rem;
+    border-top: 1px solid #d8d8d8;
+}
+
+.basket-box li > span:first-child {
+    font-weight: bold;
+    flex-shrink: 0;
+    padding-right: 20px;
+    max-width: calc(100% - 50px);
+    text-align: left;
+}
+
+.basket-box li span {
+    text-align: right;
+}
